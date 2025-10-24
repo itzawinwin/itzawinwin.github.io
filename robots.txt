@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://its-a-win-win.github.io/Personal-webpage/sitemap.xml

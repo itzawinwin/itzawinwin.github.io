@@ -298,6 +298,24 @@ li strong {
     text-decoration: underline;
 }
 
+/* Disabled nav link state for temporarily removed pages (e.g., Blog) */
+.main-nav a.disabled, .nav-link.disabled {
+    color: #9aa4af;
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.8;
+}
+
+/* Visual style for project cards that are temporarily disabled */
+.project-card.disabled {
+    opacity: 0.95;
+    filter: grayscale(20%);
+    border-style: dashed;
+}
+.project-card.disabled .project-card-content h3 {
+    color: #7f8c8d;
+}
+
 /* Footer */
 footer {
     margin-top: 60px;
